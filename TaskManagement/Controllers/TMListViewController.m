@@ -9,6 +9,9 @@
 #import "TMListViewController.h"
 
 @interface TMListViewController ()
+{
+    NSInteger rows;
+}
 
 @end
 
@@ -16,6 +19,7 @@
 @synthesize taskListFooterView;
 @synthesize headerView;
 @synthesize headerLabel;
+@synthesize taskListTableView;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -31,6 +35,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     self.title = @"TaskList";
+    rows = 1;
     self.taskListFooterView.hidden = YES;
 }
 
@@ -48,7 +53,7 @@
 }
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 1;
+    return rows;
 }
 
 // Customize the appearance of table view cells.
@@ -62,6 +67,7 @@
                  reuseIdentifier:CellIdentifier];
     }
     cell.textLabel.text = @"Add New Task Event";
+    cell.selectionStyle = UITableViewCellSelectionStyleNone;
    // [tableView setEditing:YES animated:YES];
     return cell;
 }
@@ -75,5 +81,13 @@
 {
     headerLabel.text = @"Default";
     return headerView;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    rows++;
+    self.taskListTableView.scrollEnabled = YES;
+    [[self taskListTableView] reloadData];
+    
 }
 @end
