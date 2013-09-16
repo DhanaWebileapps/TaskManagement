@@ -8,8 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
+@class TMListViewController;
+
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) TMListViewController *listVC;
 
 @end

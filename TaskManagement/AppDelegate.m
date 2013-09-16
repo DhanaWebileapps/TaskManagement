@@ -7,14 +7,20 @@
 //
 
 #import "AppDelegate.h"
+#import "TMListViewController.h"
 
 @implementation AppDelegate
+@synthesize listVC;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    listVC = [[TMListViewController alloc] initWithNibName:TASK_LIST_NIB bundle:nil];
+    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:listVC];
+    self.window.rootViewController = navController;
+   
     [self.window makeKeyAndVisible];
     return YES;
 }

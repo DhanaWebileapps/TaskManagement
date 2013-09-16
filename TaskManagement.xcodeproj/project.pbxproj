@@ -16,6 +16,8 @@
 		65096B8717E734790093EF77 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 65096B8617E734790093EF77 /* Default.png */; };
 		65096B8917E734790093EF77 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65096B8817E734790093EF77 /* Default@2x.png */; };
 		65096B8B17E734790093EF77 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65096B8A17E734790093EF77 /* Default-568h@2x.png */; };
+		65096B9617E734EB0093EF77 /* TMListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65096B9517E734EB0093EF77 /* TMListViewController.m */; };
+		65096B9817E7350B0093EF77 /* TMListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65096B9717E7350B0093EF77 /* TMListView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,9 @@
 		65096B8617E734790093EF77 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		65096B8817E734790093EF77 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		65096B8A17E734790093EF77 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		65096B9417E734EB0093EF77 /* TMListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMListViewController.h; sourceTree = "<group>"; };
+		65096B9517E734EB0093EF77 /* TMListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMListViewController.m; sourceTree = "<group>"; };
+		65096B9717E7350B0093EF77 /* TMListView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TMListView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +85,8 @@
 			children = (
 				65096B8317E734790093EF77 /* AppDelegate.h */,
 				65096B8417E734790093EF77 /* AppDelegate.m */,
+				65096B9117E7349D0093EF77 /* Controllers */,
+				65096B9317E734C00093EF77 /* Views */,
 				65096B7B17E734790093EF77 /* Supporting Files */,
 			);
 			path = TaskManagement;
@@ -97,6 +104,23 @@
 				65096B8A17E734790093EF77 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		65096B9117E7349D0093EF77 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				65096B9417E734EB0093EF77 /* TMListViewController.h */,
+				65096B9517E734EB0093EF77 /* TMListViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		65096B9317E734C00093EF77 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				65096B9717E7350B0093EF77 /* TMListView.xib */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +178,7 @@
 				65096B8717E734790093EF77 /* Default.png in Resources */,
 				65096B8917E734790093EF77 /* Default@2x.png in Resources */,
 				65096B8B17E734790093EF77 /* Default-568h@2x.png in Resources */,
+				65096B9817E7350B0093EF77 /* TMListView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +191,7 @@
 			files = (
 				65096B8117E734790093EF77 /* main.m in Sources */,
 				65096B8517E734790093EF77 /* AppDelegate.m in Sources */,
+				65096B9617E734EB0093EF77 /* TMListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
