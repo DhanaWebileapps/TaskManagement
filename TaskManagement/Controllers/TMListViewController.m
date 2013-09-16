@@ -85,9 +85,17 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    rows++;
-    self.taskListTableView.scrollEnabled = YES;
-    [[self taskListTableView] reloadData];
+    if (indexPath.row == rows-1)
+    {
+        rows++;
+        self.taskListTableView.scrollEnabled = YES;
+        [[self taskListTableView] reloadData];
+    }
+    else
+    {
+        
+    }
+  
     
 }
 @end
