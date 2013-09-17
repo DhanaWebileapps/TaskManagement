@@ -12,11 +12,12 @@
 
 #define TASK_LIST_NIB @"TMListView"
 
-@interface TMListViewController : UIViewController
+@interface TMListViewController : UIViewController<UITextFieldDelegate>
 {
     
 }
 @property(nonatomic,strong) IBOutlet UIView *taskListFooterView;
 @property(nonatomic,strong) IBOutlet UIView *headerView;
 @property(nonatomic,strong) IBOutlet UILabel *headerLabel;
+@property(nonatomic,strong) IBOutlet UITableView *taskListTableView;
 @end
