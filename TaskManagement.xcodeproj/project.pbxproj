@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6501CD9D17E81E9D0040905D /* TMAddCustomTaskManagementCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6501CD9C17E81E9D0040905D /* TMAddCustomTaskManagementCell.m */; };
+		6501CDA017E81F8F0040905D /* TMAddCustomTaskManagementCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6501CD9F17E81F8F0040905D /* TMAddCustomTaskManagementCell.xib */; };
+		6501CDA317E83B5B0040905D /* TMAddExpandCustomTaskManagementCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6501CDA217E83B5B0040905D /* TMAddExpandCustomTaskManagementCell.m */; };
+		6501CDA517E83B990040905D /* TMAddExpandCustomTaskManagementCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6501CDA417E83B990040905D /* TMAddExpandCustomTaskManagementCell.xib */; };
+		6501CDA717E844310040905D /* carat-open.png in Resources */ = {isa = PBXBuildFile; fileRef = 6501CDA617E844310040905D /* carat-open.png */; };
+		6501CDAA17E845300040905D /* thumbs_down_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6501CDA817E845300040905D /* thumbs_down_normal@2x.png */; };
+		6501CDAB17E845300040905D /* thumbs_up_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6501CDA917E845300040905D /* thumbs_up_selected@2x.png */; };
+		6501CDAD17E846FA0040905D /* mail.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6501CDAC17E846FA0040905D /* mail.jpg */; };
+		6501CDAF17E8479D0040905D /* folder.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6501CDAE17E8479C0040905D /* folder.jpg */; };
+		6501CDB217E847D80040905D /* checkbox.png in Resources */ = {isa = PBXBuildFile; fileRef = 6501CDB017E847D80040905D /* checkbox.png */; };
+		6501CDB317E847D80040905D /* checkbox-selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 6501CDB117E847D80040905D /* checkbox-selected.png */; };
 		65096B7517E734790093EF77 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65096B7417E734780093EF77 /* UIKit.framework */; };
 		65096B7717E734790093EF77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65096B7617E734790093EF77 /* Foundation.framework */; };
 		65096B7917E734790093EF77 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65096B7817E734790093EF77 /* CoreGraphics.framework */; };
@@ -18,9 +29,24 @@
 		65096B8B17E734790093EF77 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65096B8A17E734790093EF77 /* Default-568h@2x.png */; };
 		65096B9617E734EB0093EF77 /* TMListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65096B9517E734EB0093EF77 /* TMListViewController.m */; };
 		65096B9817E7350B0093EF77 /* TMListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65096B9717E7350B0093EF77 /* TMListView.xib */; };
+		65096B9B17E768620093EF77 /* TMListViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 65096B9A17E768620093EF77 /* TMListViewCell.m */; };
+		65096B9D17E768A10093EF77 /* TMListViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65096B9C17E768A10093EF77 /* TMListViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6501CD9B17E81E9D0040905D /* TMAddCustomTaskManagementCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMAddCustomTaskManagementCell.h; sourceTree = "<group>"; };
+		6501CD9C17E81E9D0040905D /* TMAddCustomTaskManagementCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMAddCustomTaskManagementCell.m; sourceTree = "<group>"; };
+		6501CD9F17E81F8F0040905D /* TMAddCustomTaskManagementCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TMAddCustomTaskManagementCell.xib; sourceTree = "<group>"; };
+		6501CDA117E83B5B0040905D /* TMAddExpandCustomTaskManagementCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMAddExpandCustomTaskManagementCell.h; sourceTree = "<group>"; };
+		6501CDA217E83B5B0040905D /* TMAddExpandCustomTaskManagementCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMAddExpandCustomTaskManagementCell.m; sourceTree = "<group>"; };
+		6501CDA417E83B990040905D /* TMAddExpandCustomTaskManagementCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TMAddExpandCustomTaskManagementCell.xib; sourceTree = "<group>"; };
+		6501CDA617E844310040905D /* carat-open.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "carat-open.png"; sourceTree = "<group>"; };
+		6501CDA817E845300040905D /* thumbs_down_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thumbs_down_normal@2x.png"; sourceTree = "<group>"; };
+		6501CDA917E845300040905D /* thumbs_up_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thumbs_up_selected@2x.png"; sourceTree = "<group>"; };
+		6501CDAC17E846FA0040905D /* mail.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mail.jpg; sourceTree = "<group>"; };
+		6501CDAE17E8479C0040905D /* folder.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = folder.jpg; sourceTree = "<group>"; };
+		6501CDB017E847D80040905D /* checkbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkbox.png; sourceTree = "<group>"; };
+		6501CDB117E847D80040905D /* checkbox-selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkbox-selected.png"; sourceTree = "<group>"; };
 		65096B7117E734780093EF77 /* TaskManagement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskManagement.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65096B7417E734780093EF77 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		65096B7617E734790093EF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -37,6 +63,9 @@
 		65096B9417E734EB0093EF77 /* TMListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMListViewController.h; sourceTree = "<group>"; };
 		65096B9517E734EB0093EF77 /* TMListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMListViewController.m; sourceTree = "<group>"; };
 		65096B9717E7350B0093EF77 /* TMListView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TMListView.xib; sourceTree = "<group>"; };
+		65096B9917E768620093EF77 /* TMListViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMListViewCell.h; sourceTree = "<group>"; };
+		65096B9A17E768620093EF77 /* TMListViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMListViewCell.m; sourceTree = "<group>"; };
+		65096B9C17E768A10093EF77 /* TMListViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TMListViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +82,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6501CD9A17E81E600040905D /* AddTaskCell */ = {
+			isa = PBXGroup;
+			children = (
+				6501CD9B17E81E9D0040905D /* TMAddCustomTaskManagementCell.h */,
+				6501CD9C17E81E9D0040905D /* TMAddCustomTaskManagementCell.m */,
+				6501CDA117E83B5B0040905D /* TMAddExpandCustomTaskManagementCell.h */,
+				6501CDA217E83B5B0040905D /* TMAddExpandCustomTaskManagementCell.m */,
+			);
+			path = AddTaskCell;
+			sourceTree = "<group>";
+		};
+		6501CD9E17E81F720040905D /* AddTaskCell */ = {
+			isa = PBXGroup;
+			children = (
+				6501CD9F17E81F8F0040905D /* TMAddCustomTaskManagementCell.xib */,
+				6501CDA417E83B990040905D /* TMAddExpandCustomTaskManagementCell.xib */,
+			);
+			path = AddTaskCell;
+			sourceTree = "<group>";
+		};
 		65096B6817E734780093EF77 = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +144,13 @@
 		65096B7B17E734790093EF77 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6501CDA817E845300040905D /* thumbs_down_normal@2x.png */,
+				6501CDA917E845300040905D /* thumbs_up_selected@2x.png */,
+				6501CDAC17E846FA0040905D /* mail.jpg */,
+				6501CDAE17E8479C0040905D /* folder.jpg */,
+				6501CDB017E847D80040905D /* checkbox.png */,
+				6501CDB117E847D80040905D /* checkbox-selected.png */,
+				6501CDA617E844310040905D /* carat-open.png */,
 				65096B7C17E734790093EF77 /* TaskManagement-Info.plist */,
 				65096B7D17E734790093EF77 /* InfoPlist.strings */,
 				65096B8017E734790093EF77 /* main.m */,
@@ -111,6 +167,9 @@
 			children = (
 				65096B9417E734EB0093EF77 /* TMListViewController.h */,
 				65096B9517E734EB0093EF77 /* TMListViewController.m */,
+				65096B9917E768620093EF77 /* TMListViewCell.h */,
+				65096B9A17E768620093EF77 /* TMListViewCell.m */,
+				6501CD9A17E81E600040905D /* AddTaskCell */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -119,6 +178,8 @@
 			isa = PBXGroup;
 			children = (
 				65096B9717E7350B0093EF77 /* TMListView.xib */,
+				65096B9C17E768A10093EF77 /* TMListViewCell.xib */,
+				6501CD9E17E81F720040905D /* AddTaskCell */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -179,6 +240,16 @@
 				65096B8917E734790093EF77 /* Default@2x.png in Resources */,
 				65096B8B17E734790093EF77 /* Default-568h@2x.png in Resources */,
 				65096B9817E7350B0093EF77 /* TMListView.xib in Resources */,
+				65096B9D17E768A10093EF77 /* TMListViewCell.xib in Resources */,
+				6501CDA017E81F8F0040905D /* TMAddCustomTaskManagementCell.xib in Resources */,
+				6501CDA517E83B990040905D /* TMAddExpandCustomTaskManagementCell.xib in Resources */,
+				6501CDA717E844310040905D /* carat-open.png in Resources */,
+				6501CDAA17E845300040905D /* thumbs_down_normal@2x.png in Resources */,
+				6501CDAB17E845300040905D /* thumbs_up_selected@2x.png in Resources */,
+				6501CDAD17E846FA0040905D /* mail.jpg in Resources */,
+				6501CDAF17E8479D0040905D /* folder.jpg in Resources */,
+				6501CDB217E847D80040905D /* checkbox.png in Resources */,
+				6501CDB317E847D80040905D /* checkbox-selected.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,6 +263,9 @@
 				65096B8117E734790093EF77 /* main.m in Sources */,
 				65096B8517E734790093EF77 /* AppDelegate.m in Sources */,
 				65096B9617E734EB0093EF77 /* TMListViewController.m in Sources */,
+				65096B9B17E768620093EF77 /* TMListViewCell.m in Sources */,
+				6501CD9D17E81E9D0040905D /* TMAddCustomTaskManagementCell.m in Sources */,
+				6501CDA317E83B5B0040905D /* TMAddExpandCustomTaskManagementCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +380,7 @@
 				65096B9017E734790093EF77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

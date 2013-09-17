@@ -12,7 +12,7 @@
 
 #define TASK_LIST_NIB @"TMListView"
 
-@interface TMListViewController : UIViewController
+@interface TMListViewController : UIViewController<UITextFieldDelegate>
 {
     
 }
