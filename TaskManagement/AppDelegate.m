@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "TMListViewController.h"
+#import "TMRemainderViewController.h"
 
 @implementation AppDelegate
 @synthesize listVC;
@@ -18,7 +19,8 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     listVC = [[TMListViewController alloc] initWithNibName:TASK_LIST_NIB bundle:nil];
-    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:listVC];
+    TMRemainderViewController *remainderVC = [[TMRemainderViewController alloc] initWithNibName:@"TMRemainderView" bundle:nil];
+    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:remainderVC];
     self.window.rootViewController = navController;
    
     [self.window makeKeyAndVisible];
