@@ -7,12 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-<<<<<<< HEAD
 		3299C24817E74B9B00531E20 /* TMRemainderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3299C24717E74B9B00531E20 /* TMRemainderViewController.m */; };
 		3299C24A17E74BC400531E20 /* TMRemainderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3299C24917E74BC400531E20 /* TMRemainderView.xib */; };
 		3299C24C17E8457000531E20 /* TMFolderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3299C24B17E8457000531E20 /* TMFolderView.xib */; };
 		3299C24F17E845F300531E20 /* TMFolderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3299C24E17E845F300531E20 /* TMFolderViewController.m */; };
-=======
 		6501CD9D17E81E9D0040905D /* TMAddCustomTaskManagementCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6501CD9C17E81E9D0040905D /* TMAddCustomTaskManagementCell.m */; };
 		6501CDA017E81F8F0040905D /* TMAddCustomTaskManagementCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6501CD9F17E81F8F0040905D /* TMAddCustomTaskManagementCell.xib */; };
 		6501CDA317E83B5B0040905D /* TMAddExpandCustomTaskManagementCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6501CDA217E83B5B0040905D /* TMAddExpandCustomTaskManagementCell.m */; };
@@ -24,7 +22,6 @@
 		6501CDAF17E8479D0040905D /* folder.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6501CDAE17E8479C0040905D /* folder.jpg */; };
 		6501CDB217E847D80040905D /* checkbox.png in Resources */ = {isa = PBXBuildFile; fileRef = 6501CDB017E847D80040905D /* checkbox.png */; };
 		6501CDB317E847D80040905D /* checkbox-selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 6501CDB117E847D80040905D /* checkbox-selected.png */; };
->>>>>>> 8fd0b57dc375b0e24784e18da4f2e4969c1b133c
 		65096B7517E734790093EF77 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65096B7417E734780093EF77 /* UIKit.framework */; };
 		65096B7717E734790093EF77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65096B7617E734790093EF77 /* Foundation.framework */; };
 		65096B7917E734790093EF77 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65096B7817E734790093EF77 /* CoreGraphics.framework */; };
@@ -41,14 +38,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-<<<<<<< HEAD
 		3299C24617E74B9B00531E20 /* TMRemainderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMRemainderViewController.h; sourceTree = "<group>"; };
 		3299C24717E74B9B00531E20 /* TMRemainderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMRemainderViewController.m; sourceTree = "<group>"; };
 		3299C24917E74BC400531E20 /* TMRemainderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TMRemainderView.xib; sourceTree = "<group>"; };
 		3299C24B17E8457000531E20 /* TMFolderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TMFolderView.xib; sourceTree = "<group>"; };
 		3299C24D17E845F200531E20 /* TMFolderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMFolderViewController.h; sourceTree = "<group>"; };
 		3299C24E17E845F300531E20 /* TMFolderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMFolderViewController.m; sourceTree = "<group>"; };
-=======
 		6501CD9B17E81E9D0040905D /* TMAddCustomTaskManagementCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMAddCustomTaskManagementCell.h; sourceTree = "<group>"; };
 		6501CD9C17E81E9D0040905D /* TMAddCustomTaskManagementCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMAddCustomTaskManagementCell.m; sourceTree = "<group>"; };
 		6501CD9F17E81F8F0040905D /* TMAddCustomTaskManagementCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TMAddCustomTaskManagementCell.xib; sourceTree = "<group>"; };
@@ -62,7 +57,6 @@
 		6501CDAE17E8479C0040905D /* folder.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = folder.jpg; sourceTree = "<group>"; };
 		6501CDB017E847D80040905D /* checkbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkbox.png; sourceTree = "<group>"; };
 		6501CDB117E847D80040905D /* checkbox-selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkbox-selected.png"; sourceTree = "<group>"; };
->>>>>>> 8fd0b57dc375b0e24784e18da4f2e4969c1b133c
 		65096B7117E734780093EF77 /* TaskManagement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskManagement.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65096B7417E734780093EF77 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		65096B7617E734790093EF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -183,16 +177,13 @@
 			children = (
 				65096B9417E734EB0093EF77 /* TMListViewController.h */,
 				65096B9517E734EB0093EF77 /* TMListViewController.m */,
-<<<<<<< HEAD
 				3299C24617E74B9B00531E20 /* TMRemainderViewController.h */,
 				3299C24717E74B9B00531E20 /* TMRemainderViewController.m */,
 				3299C24D17E845F200531E20 /* TMFolderViewController.h */,
 				3299C24E17E845F300531E20 /* TMFolderViewController.m */,
-=======
 				65096B9917E768620093EF77 /* TMListViewCell.h */,
 				65096B9A17E768620093EF77 /* TMListViewCell.m */,
 				6501CD9A17E81E600040905D /* AddTaskCell */,
->>>>>>> 8fd0b57dc375b0e24784e18da4f2e4969c1b133c
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -201,13 +192,10 @@
 			isa = PBXGroup;
 			children = (
 				65096B9717E7350B0093EF77 /* TMListView.xib */,
-<<<<<<< HEAD
 				3299C24B17E8457000531E20 /* TMFolderView.xib */,
 				3299C24917E74BC400531E20 /* TMRemainderView.xib */,
-=======
 				65096B9C17E768A10093EF77 /* TMListViewCell.xib */,
 				6501CD9E17E81F720040905D /* AddTaskCell */,
->>>>>>> 8fd0b57dc375b0e24784e18da4f2e4969c1b133c
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -268,10 +256,8 @@
 				65096B8917E734790093EF77 /* Default@2x.png in Resources */,
 				65096B8B17E734790093EF77 /* Default-568h@2x.png in Resources */,
 				65096B9817E7350B0093EF77 /* TMListView.xib in Resources */,
-<<<<<<< HEAD
 				3299C24A17E74BC400531E20 /* TMRemainderView.xib in Resources */,
 				3299C24C17E8457000531E20 /* TMFolderView.xib in Resources */,
-=======
 				65096B9D17E768A10093EF77 /* TMListViewCell.xib in Resources */,
 				6501CDA017E81F8F0040905D /* TMAddCustomTaskManagementCell.xib in Resources */,
 				6501CDA517E83B990040905D /* TMAddExpandCustomTaskManagementCell.xib in Resources */,
@@ -282,7 +268,6 @@
 				6501CDAF17E8479D0040905D /* folder.jpg in Resources */,
 				6501CDB217E847D80040905D /* checkbox.png in Resources */,
 				6501CDB317E847D80040905D /* checkbox-selected.png in Resources */,
->>>>>>> 8fd0b57dc375b0e24784e18da4f2e4969c1b133c
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +281,11 @@
 				65096B8117E734790093EF77 /* main.m in Sources */,
 				65096B8517E734790093EF77 /* AppDelegate.m in Sources */,
 				65096B9617E734EB0093EF77 /* TMListViewController.m in Sources */,
-<<<<<<< HEAD
 				3299C24817E74B9B00531E20 /* TMRemainderViewController.m in Sources */,
 				3299C24F17E845F300531E20 /* TMFolderViewController.m in Sources */,
-=======
 				65096B9B17E768620093EF77 /* TMListViewCell.m in Sources */,
 				6501CD9D17E81E9D0040905D /* TMAddCustomTaskManagementCell.m in Sources */,
 				6501CDA317E83B5B0040905D /* TMAddExpandCustomTaskManagementCell.m in Sources */,
->>>>>>> 8fd0b57dc375b0e24784e18da4f2e4969c1b133c
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
